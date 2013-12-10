@@ -1,0 +1,73 @@
+
+OS/161 base system version 1.99.05
+Copyright (c) 2000, 2001, 2002, 2003, 2004, 2005, 2008, 2009
+   President and Fellows of Harvard College.  All rights reserved.
+
+Put-your-group-name-here's system version 0 (ASST0 #170)
+
+308k physical memory available
+[1 pages stolen at 33000]
+[1 pages stolen at 34000]
+Thread created
+[1 pages stolen at 35000]
+[1 pages stolen at 36000]
+[1 pages stolen at 37000]
+Device probe...
+[1 pages stolen at 38000]
+lamebus0 (system main bus)
+emu0 at lamebus0
+ltrace0 at lamebus0
+ltimer0 at lamebus0
+beep0 at ltimer0
+rtclock0 at ltimer0
+lrandom0 at lamebus0
+random0 at lrandom0
+lhd0 at lamebus0
+lhd1 at lamebus0
+lser0 at lamebus0
+con0 at lser0
+
+pft initialized
+[30 pages stolen at 39000]
+[8 pages stolen at 57000]
+cpu0: MIPS r3000
+OS/161 kernel [? for menu]: p testbin/helloworld' 
+Thread created
+[1 pages stolen at 5f000]
+Operation took 0.0054[5 pages stolen at 60000]
+20600 seconds
+OS/161 kernel [? for menu]: 
+Virtual 	 Physical
+------------------------
+400000 	 39000 
+[2 pages stolen at 65000]
+440000 	 3a000 
+7ffff000 	 3b000 
+[2 pages stolen at 67000]
+Swap : Segment 1  size : 1
+Swap : Segment 2  size : 1
+Swap : Stack      size : 12
+1284 is the memsize
+Loaded segment 1
+8 is the memsize
+Loaded segment 2
+Ready to greet 
+
+done putting
+
+97
+97
+97
+97
+97
+97
+97
+97
+97
+97
+done greeting 
+
+Number of pages replaced = 0
+Number of faults  = 66
+Number of swap insertions  = 14
+bjfvhfjv
